@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+.card {
+  font-family: "Ubuntu", sans-serif;
+  padding: 30px;
+  width: 1000px;
+  margin: 0 auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.card-text {
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.card-image {
+  float: left;
+  max-height: 230px;
+  margin-right: 20px;
+}
