@@ -1,0 +1,24 @@
+/* Nesting (Cascade) */
+.parent div {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  margin: 10px;
+}
+
+/* Weight */
+/* #element a {
+  color: tan;
+}
+
+#element .parent a {
+  color: teal;
+} */
+
+.first {
+  color: tan;
+}
+
+.second {
+  color: teal;
+}
