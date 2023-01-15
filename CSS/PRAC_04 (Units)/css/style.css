@@ -1,0 +1,25 @@
+/* .parent {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.child {
+  min-height: 200px;
+  width: 33.33%;
+  background-color: red;
+  border: 2px solid #000;
+} */
+
+html {
+  font-size: 10px;
+}
+
+.block {
+  font-size: 50px;
+}
+
+.block p {
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
