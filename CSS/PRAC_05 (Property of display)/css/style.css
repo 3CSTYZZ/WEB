@@ -1,0 +1,30 @@
+/* none - hide item / inline - as span / block - as div / inline-block - as both */
+
+/* div, span {
+  background-color: aqua;
+}
+
+div {
+  display: none;
+}
+
+span {
+  display: block;
+} */
+
+.block {
+  margin-bottom: 30px;
+}
+
+.inline {
+  margin-bottom: 30px;
+}
+
+.inline-block {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+div, span {
+  background-color: bisque;
+}
