@@ -1,0 +1,70 @@
+.block {
+  display: inline-block;
+  background-color: aqua;
+  /* margin: 10px 20px 30px 40px; */
+  /* margin: 0 30px; */
+  /* margin: 10px; */
+  /* margin: 10px 10px 0; */
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.padding-block {
+  display: inline-block;
+  background-color: crimson;
+  color: #fff;
+  /* padding: 10px 20px 30px 40px; */
+  /* padding: 0 30px; */
+  /* padding: 10px; */
+  padding: 10px 10px 0;
+}
+
+/* Схлопывание */
+.test-down {
+  margin-bottom: 10px;
+}
+
+.test-up {
+  margin-top: 20px;
+}
+
+/* .border {
+  border-radius: 2px;
+  border-style: solid;
+  border-color: navajowhite;
+} */
+
+.border{
+  /* border: 2px solid navajowhite; */
+  border-top: 2px solid black;
+  border-right: 3px dotted green;
+  border-bottom: 4px dashed blue;
+  border-left: 5px groove saddlebrown;
+  margin-bottom: 10px;
+}
+
+/* Bad example
+.blocky {
+  border: 1px solid black;
+  width: 300px;
+  height: 100px;
+} */
+
+/* Good example */
+.max-width {
+  background-color: aqua;
+  max-width: 1000px;
+  min-width: 320px;
+  max-height: 500px;
+  min-height: 200px;
+}
+
+/* если сжать сайт - блок тоже сожмется, так как он лишь ограничен "верхней" границей */
+
+/* но если сжимать меньше чем 320 - не сожмется, так как указана "нижняя" граница через min-width */
+
+/* max-height ограничивает высоту блока, как и height, поэтому использовать нежелательно, кроме ситуаций, где нужно специально сделать скроллящийся блок */
+
+/* min-height может дать блоку какие-то минимальные размеры по высоте, но не ограничить ничем. Однако без паддингов использовать не рекомендуется, потому что контент не должен прилипать к краям блока, а без них такое может произойти */
