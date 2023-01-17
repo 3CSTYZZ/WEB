@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 0 0 1em 0;
+}
+
+.content {
+  padding: 2rem 1rem;
+}
+
+ul {
+  display: inline-block;
+  margin-top: 0;
+  margin-right: 2em;
+  padding-left: 1em;
+}
+
+ul:last-child {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.container:not(:last-child) {
+  margin-bottom: 2em;
+}
