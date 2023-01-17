@@ -1,0 +1,32 @@
+.block {
+  display: block;
+  background-color: aqua;
+  width: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  font-size: 0;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(255, 0, 0, 0.33);
+}
+
+.element {
+  font-size: 14px;
+  display: inline-block;
+  width: 320px;
+  outline: 1px solid #000;
+  margin-right: 20px;
+}
+
+.element:nth-child(3n) {
+  margin-right: 0;
+}
+
+.element {
+  vertical-align: middle;
+}
