@@ -1,0 +1,65 @@
+.block {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  margin: 10px;
+}
+
+.block {
+  left: 50px;
+  top: 50px;
+}
+
+/* .relative {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  background-color: #000;
+} */
+
+.relative {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  background-color: #000;
+}
+
+body {
+  padding: 50px;
+}
+
+.cart {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.cart svg {
+  width: 100%;
+  height: 100%;
+}
+
+.cart__count {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  display: inline-block;
+  padding: 2px 7px;
+  color: #fff;
+  background-color: crimson;
+  border-radius: 100%;
+}
+
+body {
+  min-height: 4000px;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 30px 0;
+  background-color: gray;
+}
