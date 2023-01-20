@@ -1,0 +1,32 @@
+.image {
+  width: 300px;
+  margin-right: 20px;
+  float: left;
+}
+
+.overflow {
+  width: 400px;
+  height: 200px;
+  outline: 3px solid salmon;
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  overflow: auto;
+}
+
+.block {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.z-index-1 {
+  background-color: red;
+  z-index: 2;
+}
+
+.z-index-2 {
+  background-color: navy;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+}
