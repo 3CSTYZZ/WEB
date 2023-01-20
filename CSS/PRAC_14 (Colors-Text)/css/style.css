@@ -1,0 +1,60 @@
+.element {
+  color: red;
+}
+
+.element-2 {
+  color: #ff0;
+}
+
+.element-3 {
+  color: rgb(0, 255, 0);
+}
+
+.element-4 {
+  color: rgba(0, 0, 255, 0.5);
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  opacity: 0.5;
+}
+
+a {
+  color: inherit;
+  /* color: initial; */
+}
+
+a {
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: overline;
+}
+
+.block-box {
+  border: 2px solid black;
+  text-align: center;
+  text-align: right;
+  text-align: justify;
+
+  text-transform: none;
+  text-transform: uppercase;
+  text-transform: capitalize;
+  text-transform: lowercase;
+}
+
+.text {
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 10px;
+  text-indent: 1em;
+  /* white-space: nowrap; */
+  /* white-space: pre; */
+  word-spacing: 10px;
+}
