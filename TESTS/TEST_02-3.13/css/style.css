@@ -85,7 +85,7 @@ body {
   padding-left: 15px;
 }
 
-.list li:not(:last-child) {
+.list .list-element:not(:last-child) {
   margin-bottom: 20px;
 }
 
@@ -97,6 +97,10 @@ body {
 }
 
 .block:last-child {
+  margin-bottom: 0;
+}
+
+.block .text-content:last-child {
   margin-bottom: 0;
 }
 
