@@ -1,0 +1,122 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 20px 0;
+	font-family: 'Arial', Verdana, sans-serif;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.main-title {
+	margin: 0;
+	margin-bottom: 30px;
+	font-size: 60px;
+	color: #3f2aff;
+}
+
+.text {
+	margin: 0;
+	margin-bottom: 30px;
+	max-width: 730px;
+	font-size: 20px;
+	line-height: 160%;
+	color: #333;
+}
+
+.text:last-child {
+	margin-bottom: 0;
+}
+
+.text a {
+	color: #3f2aff
+	font-size: 20px;
+}
+
+.quote-text {
+	max-width: 900px;
+	background-color: EBEBEB;
+	padding: 25px 120px;
+}
+
+.quote {
+	font-weight: 700px;
+}
+
+.quote-author {
+	font-style: normal;
+}
+
+.image-group {
+	margin: 0;
+	margin-bottom: 60px;
+	width: 100%;
+}
+
+.image-group-text {
+	padding: 12px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background-color: #3f2aff;
+}
+
+second-title {
+	margin: 0;
+	margin-bottom: 10px;
+	color: #333;
+	font-size: 40px;
+}
+
+.list {
+	font-size: 20px;
+}
+
+.list-item {
+	line-height: 240%;
+}
+
+.table {
+	margin-bottom: 60;
+	border: 1px #c4c4c4;
+	border-collapse: collapse;
+	font-size: 20px;
+	width: 100%;
+}
+
+.table td,
+.table th {
+	vertical-align: top;
+	text-align: left;
+	padding: 30px;
+	border: 1px solid #c4c4c4;
+}
+
+.table th {
+	color: #3faff;
+}
+
+.table caption {
+	text-align: left;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.table pre {
+	margin: 0;
+	white-space: pre-line
