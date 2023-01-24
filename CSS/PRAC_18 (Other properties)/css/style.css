@@ -1,0 +1,17 @@
+.outline {
+  width: 200px;
+  outline: 5px dashed orange;
+}
+
+a {
+  opacity: 0;
+  visibility: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
