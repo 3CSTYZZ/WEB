@@ -46,16 +46,13 @@ body {
   display: inline-block;
   padding: 24px 49px;
   margin-right: 25px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
 }
 
 .link .anchor:last-child {
   margin-right: 0;
-}
-
-.anchor {
-  font-weight: 700;
-  font-size: 18px;
-  background-color: #3f2aff;
 }
 
 .download-box {
@@ -135,15 +132,15 @@ body {
   padding-left: 15px;
 }
 
-.list .list-element:not(:last-child) {
+.list-element:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.list .list-element::marker {
+.list-element::marker {
   color: #3f2aff;
 }
 
-.list a {
+.list .anchor-art {
   border-bottom: 1px solid #3f2aff;
   font-size: 20px;
   color: #3f2aff;
