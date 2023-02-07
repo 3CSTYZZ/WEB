@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Beer Money";
+  src: url("../Fonts/beer-money12.woff2");
+  src: local("beer-money12") format("woff2");
+}
+
+body {
+  font-family: "Beer Money";
+}
