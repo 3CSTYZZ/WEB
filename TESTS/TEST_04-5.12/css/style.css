@@ -204,12 +204,6 @@ body {
 
 /* Modules page */
 
-.bcg {
-  background-color: #e5e5e5;
-  width: 1920px;
-  height: 1477px;
-}
-
 .container-modules {
   margin: 0 auto;
   padding: 50px 0 0;
@@ -219,21 +213,26 @@ body {
 
 .logo-modules {
   display: inline-block;
+  margin-bottom: 25px;
 }
 
 .arrow {
   padding: 35px 7px 2px 0;
 }
 
-.link-modules {
-  margin-bottom: 25px;
-}
-
 .link-modules-text {
+  display: block;
+  padding-left: 52px;
+  margin-bottom: 25px;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
   color: #3f2aff;
+
+  background-image: url("../img/Arrow\ 1.svg");
+  background-position: left center;
+  background-size: 45px;
+  background-repeat: no-repeat;
 }
 
 .topic-modules {
@@ -248,67 +247,24 @@ body {
 .card {
   display: inline-block;
   position: relative;
-  padding: 0;
   margin: 0 25px 25px 0;
+  padding-left: 25px;
   vertical-align: top;
   width: 572px;
   height: 505px;
 }
 
-.card:nth-child(even) {
+.card:nth-child(odd) {
   margin-right: 0;
 }
 
-.card-in {
-  display: inline-block;
-  padding: 2px 0 0 25px;
-  vertical-align: top;
-}
-
-.card-item-1 {
-  display: inline-block;
-  width: 572px;
-  height: 505px;
-  background-color: #fff;
-  background-image: url("../img/copy-first.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  box-shadow: 2px 1px 10px #bcbcbc;
-}
-.card-item-2 {
-  display: inline-block;
-  width: 572px;
-  height: 505px;
-  background-color: #fff;
-  background-image: url("../img/copy-second.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  box-shadow: 2px 1px 10px #bcbcbc;
-}
-.card-item-3 {
-  display: inline-block;
-  width: 572px;
-  height: 505px;
-  background-color: #fff;
-  background-image: url("../img/copy-third.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  box-shadow: 2px 1px 10px #bcbcbc;
-}
-
-.card-item-4 {
-  display: inline-block;
-  width: 572px;
-  height: 505px;
-  background-color: #fff;
-  background-image: url("../img/copy-fourth.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  box-shadow: 2px 1px 10px #bcbcbc;
+.block-modules-topic {
+  padding-top: 205px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #3f2aff;
 }
 
 .card-item-in {
@@ -317,16 +273,6 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 33px;
-}
-
-.block-modules-topic {
-  padding: 205px 0 0 25px;
-  margin: 0;
-  width: 349px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 46px;
-  color: #3f2aff;
 }
 
 .digit {
@@ -339,11 +285,46 @@ body {
   color: #eaeaea;
 }
 
+.card-item-1 {
+  background-color: #fff;
+  background-image: url("../img/copy-first.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 572px 180px;
+  box-shadow: 2px 1px 10px #bcbcbc;
+}
+
+.card-item-2 {
+  background-color: #fff;
+  background-image: url("../img/copy-second.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 572px 180px;
+  box-shadow: 2px 1px 10px #bcbcbc;
+}
+
+.card-item-3 {
+  background-color: #fff;
+  background-image: url("../img/copy-third.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 572px 180px;
+  box-shadow: 2px 1px 10px #bcbcbc;
+}
+
+.card-item-4 {
+  margin-bottom: 50px;
+  background-color: #fff;
+  background-image: url("../img/copy-fourth.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 572px 180px;
+  box-shadow: 2px 1px 10px #bcbcbc;
+}
+
 .end-button {
-  width: 274px;
-  height: 70px;
-  margin: 25px auto 50px;
-  padding: 0;
+  margin: 0 auto;
+  padding: 25px 76px;
   display: block;
 
   font-weight: 700;
@@ -351,7 +332,7 @@ body {
   line-height: 21px;
   text-align: center;
   color: #3f2aff;
-  background-color: #e5e5e5;
+  background-color: transparent;
 
   border: 2px solid #3f2aff;
 }
