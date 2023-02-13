@@ -244,22 +244,42 @@ body {
   color: #3f2aff;
 }
 
+/* Cards */
+
+.cards {
+  padding: 0;
+}
+
 .card {
   display: inline-block;
   position: relative;
-  margin: 0 25px 25px 0;
-  padding-left: 25px;
-  vertical-align: top;
   width: 572px;
   height: 505px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+
+  vertical-align: top;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+
+  background-color: #fff;
+  background-position: top center;
+  background-repeat: no-repeat;
+  box-shadow: 2px 1px 10px #bcbcbc;
 }
 
-.card:nth-child(odd) {
+.card:nth-child(even) {
   margin-right: 0;
 }
 
-.block-modules-topic {
+.card:last-child {
+  margin-bottom: 50px;
+}
+
+.card-topic {
   padding-top: 205px;
+  padding-left: 25px;
   margin: 0;
   font-weight: 700;
   font-size: 40px;
@@ -267,12 +287,15 @@ body {
   color: #3f2aff;
 }
 
-.card-item-in {
+.card-item {
   display: inline-block;
-  width: 351px;
+  padding-left: 25px;
+  margin: 0;
+  width: 376px;
   font-weight: 400;
   font-size: 20px;
   line-height: 33px;
+  color: #333333;
 }
 
 .digit {
@@ -285,41 +308,20 @@ body {
   color: #eaeaea;
 }
 
-.card-item-1 {
-  background-color: #fff;
+.bcg-1 {
   background-image: url("../img/copy-first.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  box-shadow: 2px 1px 10px #bcbcbc;
 }
 
-.card-item-2 {
-  background-color: #fff;
+.bcg-2 {
   background-image: url("../img/copy-second.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  box-shadow: 2px 1px 10px #bcbcbc;
 }
 
-.card-item-3 {
-  background-color: #fff;
+.bcg-3 {
   background-image: url("../img/copy-third.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  box-shadow: 2px 1px 10px #bcbcbc;
 }
 
-.card-item-4 {
-  margin-bottom: 50px;
-  background-color: #fff;
+.bcg-4 {
   background-image: url("../img/copy-fourth.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  box-shadow: 2px 1px 10px #bcbcbc;
 }
 
 .end-button {
