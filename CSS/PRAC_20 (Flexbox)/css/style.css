@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.parent {
+  padding: 30px;
+  display: flex;
+  /* display: inline-flex; */
+
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  /* align-items: stretch; (to cross axis) */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+
+  /* justify-content: flex-start; (to main axis) */
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+
+  /* flex-wrap: wrap; */
+}
+
+.child {
+  /* width: 100px;
+  flex-basis: 200px; */
+
+  /* max-width: 100px;
+  flex-basis: 20%; */
+
+  max-width: 100px;
+  flex-grow: 1;
+  flex-basis: 10%;
+  flex-shrink: 0;
+
+  min-height: 150px;
+  background-color: powderblue;
+  margin: 10px;
+  padding: 20px;
+}
+
+.test {
+  align-self: center;
+  flex-grow: 6;
+  flex-shrink: 1;
+}
+
+.move {
+  order: -1;
+}
