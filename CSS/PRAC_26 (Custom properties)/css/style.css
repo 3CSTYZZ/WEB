@@ -1,0 +1,19 @@
+:root {
+  --orange-color: #f05a0a;
+  --text-size: 20px;
+}
+
+/* .element {
+  --orange-color: #f05a0a;
+} */
+
+.element {
+  color: var(--orange-color);
+  font-size: var(--text-size);
+}
+
+@media (max-width: 600px) {
+    :root {
+      --text-size: 10px;
+    }
+}
