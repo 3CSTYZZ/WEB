@@ -1,0 +1,51 @@
+.child {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: crimson;
+}
+
+.child1,
+.child2 {
+  background-color: yellow;
+}
+
+.parent-2 .child {
+  background-color: tan;
+}
+
+.parent-3 > .child {
+  background-color: blue;
+}
+
+.parent-4 .child ~ .child-5 {
+  background-color: aqua;
+}
+
+.parent-5 .child + .child-6 {
+  background-color: green;
+}
+
+a {
+  display: block;
+  margin-bottom: 20px;
+}
+
+a[href="https://google.com"]
+{
+  background-color: red;
+}
+
+a[href*="login"] {
+  background-color: blue;
+}
+
+a[href^="http://"]
+{
+  background-color: yellow;
+}
+
+a[href$=".pdf"] {
+  background-color: tan;
+}
