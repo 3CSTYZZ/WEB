@@ -1,0 +1,26 @@
+div {
+  background-color: crimson;
+  color: #fff;
+}
+
+/* div {
+  display: initial;
+} */
+
+li {
+  color: red;
+}
+
+/* a {
+  color: inherit;
+} */
+
+div {
+  color: unset; /* будет равно `inherit` */
+  display: unset; /* будет равно `initial` */
+}
+
+div {
+  color: revert; /* будет равно `#000` */
+  display: revert; /* будет равно `block` */
+}
