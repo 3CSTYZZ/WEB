@@ -1,0 +1,26 @@
+.element {
+  font-size: 25px;
+}
+
+.element:hover {
+  color: blue;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 500ms;
+  /* transition: color 0.5s ease-in-out; */
+}
+
+.btn {
+  border: none;
+  padding: 5px 10px;
+  transition-property: color, background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  /* transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; */
+}
+
+.btn:hover {
+  background-color: aqua;
+  color: #333;
+}
