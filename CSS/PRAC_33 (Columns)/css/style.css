@@ -1,0 +1,18 @@
+.menu-wrapper {
+  position: relative;
+  z-index: 3;
+  columns: 3;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.menu-wrapper__item {
+  display: inline-block;
+  break-inside: avoid-column;
+  padding-right: 30px;
+  padding-bottom: 32px;
+}
+
+.menu-wrapper__list {
+  padding-left: 0;
+}
