@@ -1,0 +1,53 @@
+/* First */
+/* body {
+  font-family: sans-serif;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav__link {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav__link--active {
+  color: aqua;
+} */
+
+/* Second */
+body {
+  font-family: sans-serif;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav__link {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav__link--active {
+  color: navy;
+}
+
+.header__nav {
+  background-color: wheat;
+}
+
+.footer__nav {
+  background-color: khaki;
+}
