@@ -1,0 +1,7 @@
+.gradient {
+  width: 300px;
+  min-height: 300px;
+  /* background-image: linear-gradient(wheat, crimson); */
+  /* background-image: linear-gradient(wheat 25%, crimson 25% 50%, pink 25%); */
+  background-image: linear-gradient(45deg, wheat, crimson);
+}
