@@ -1,0 +1,77 @@
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* First */
+/* .block {
+  width: 33.3333%;
+  width: calc(100% / 3);
+  min-height: 300px;
+  outline: 1px solid orangered;
+} */
+
+/* Second */
+/* .block {
+  min-height: 300px;
+  outline: 1px solid orangered;
+}
+
+.block-1 {
+  flex-shrink: 0;
+  width: 300px;
+}
+
+.block-2 {
+  width: calc(100% - 300px);
+} */
+
+/* Third */
+/* .block {
+  --gap: 30px;
+  margin-bottom: var(--gap);
+  width: calc(((100% - var(--gap) * 2)) / 3);
+  min-height: 300px;
+  background-color: wheat;
+}
+
+.block:not(:nth-child(3n)) {
+  margin-right: var(--gap);
+} */
+
+/* Fourth */
+/* .invert {
+  width: 300px;
+  filter: blur(10px);
+  filter: grayscale();
+  filter: invert();
+}
+
+img {
+  max-width: 100%;
+} */
+
+/* Fifth */
+/* .block {
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+  background-color: navy;
+  width: min(50%, 700px);
+} */
+
+/* Sixth */
+/* .block {
+  border: 1px solid red;
+  width: 150px;
+  min-height: 100px;
+  margin-right: max(5%, 50px);
+} */
+
+/* Seventh */
+.block {
+  min-height: 100px;
+  background-color: crimson;
+  width: clamp(480px, 50%, 1000px);
+}
