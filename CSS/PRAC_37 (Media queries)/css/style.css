@@ -1,0 +1,15 @@
+body {
+  background-color: darksalmon;
+}
+
+h1 {
+  text-align: center;
+  color: bisque;
+  letter-spacing: 7px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    letter-spacing: 3px;
+  }
+}
