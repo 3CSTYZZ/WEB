@@ -1,9 +1,5 @@
 # Skillbox education
 
-## BASE
-
-- _Storage for all materials_
-
 ## CSS
 
 - _Course of css_
@@ -12,6 +8,14 @@
 
 - _Course of html_
 
+## JS
+
+- _Course of js_
+
 ## TESTS
 
 - _Verification works_
+
+## WWW
+
+- _Practice works_
