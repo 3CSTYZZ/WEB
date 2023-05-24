@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customization</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <label for="check">
+    <input type="checkbox" name="check" id="check">
+    checkbox
+    <span></span>
+  </label>
+
+  <!-- lesson -->
+  <div class="task">
+    <h2>Стандартный чекбокс</h2>
+    <label>
+      <input type="checkbox">Выберите пункт
+    </label>
+  </div>
+  <div class="task">
+    <h2>Кастомный чекбокс</h2>
+    <label class="custom-checkbox">
+      <input type="checkbox" class="custom-checkbox-input">
+      <span class="custom-checkbox-text">Выберите пункт</span>
+    </label>
+  </div>
+  <div class="task">
+    <h2>Кастомные радио</h2>
+    <label class="custom-radio">
+      <input type="radio" name="gender" class="custom-radio-input">
+      <span class="custom-radio-text">Мужской</span>
+    </label>
+    <label class="custom-radio">
+      <input type="radio" name="gender" class="custom-radio-input">
+      <span class="custom-radio-text">Женский</span>
+    </label>
+  </div>
+</body>
+</html>

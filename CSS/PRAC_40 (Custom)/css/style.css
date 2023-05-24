@@ -1,0 +1,180 @@
+label {
+  padding-left: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
+#check + span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid darksalmon;
+}
+
+#check + span::before {
+  content: "\2713";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#check:checked + span::before {
+  opacity: 1;
+}
+
+/* lesson */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  padding: 50px;
+  font-family: sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.task {
+  margin-bottom: 40px;
+}
+
+/* код урока */
+.custom-checkbox {
+  user-select: none;
+  cursor: pointer;
+}
+
+.custom-checkbox-input {
+  position: absolute;
+  appearance: none;
+}
+
+.custom-checkbox-text {
+  position: relative;
+  padding-left: 20px;
+}
+
+.custom-checkbox-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #000;
+  transform: translateY(-50%);
+}
+
+.custom-checkbox-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/32/32282.png");
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.custom-checkbox-input:checked + .custom-checkbox-text::after {
+  opacity: 1;
+}
+
+.custom-checkbox-input:focus + .custom-checkbox-text {
+  outline: 1px solid #000;
+  outline-offset: 3px;
+}
+
+.custom-radio {
+  user-select: none;
+  cursor: pointer;
+}
+
+.custom-radio-input {
+  position: absolute;
+  appearance: none;
+}
+
+.custom-radio-text {
+  position: relative;
+  padding-left: 20px;
+}
+
+.custom-radio-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid #000;
+  transform: translateY(-50%);
+}
+
+.custom-radio-text::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: #000;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.custom-radio-input:checked + .custom-radio-text::after {
+  opacity: 1;
+}
+
+.custom-radio-input:focus + .custom-radio-text {
+  outline: 1px solid #000;
+  outline-offset: 3px;
+}
