@@ -1,0 +1,99 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	padding: 100px;
+	font-family: sans-serif;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+.task {
+	margin-bottom: 40px;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	clip: rect(0 0 0 0)
+}
+
+.tooltip {
+	position: relative;
+}
+
+.tooltip__btn {
+	border: none;
+	border-bottom: 1px dashed currentColor;
+	padding: 0;
+	color: #000;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.tooltip__txt {
+	position: absolute;
+	left: 50%;
+	bottom: calc(100% + 10px);
+	z-index: 3;
+	padding: 20px;
+	width: max-content;
+	max-width: 370px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 200%;
+	color: #fff;
+	background: #222;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateX(-50%) translateY(10px);
+	transition: opacity .3s ease-in-out, transform .3s ease-in-out, visibility .3s ease-in-out;
+}
+
+.tooltip__btn:hover+.tooltip__txt {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(-50%) translateY(0);
+}
+
+.tooltip__btn:focus+.tooltip__txt {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(-50%) translateY(0);
+}
+
+.popper-tooltip {
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.popper-btn:focus + .popper-tooltip {
+	opacity: 1;
+}
+
+.popper-btn:hover + .popper-tooltip {
+	opacity: 1;
+}
