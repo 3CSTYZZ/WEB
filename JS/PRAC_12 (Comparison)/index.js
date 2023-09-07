@@ -78,3 +78,16 @@ console.log(
   "Дробная часть",
   Math.round((number % 1) * Math.pow(10, precision1))
 );
+
+//v2
+true === true; // true
+true !== true; // false
+true === false; // false
+true !== false; // true
+
+// === и !== всегда вернут false при сравнении значений разных типов
+false !== 0;
+true !== 1;
+0 !== "";
+3 !== "3";
+false !== "";
