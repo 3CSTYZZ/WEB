@@ -1,0 +1,78 @@
+.cars {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cars__list {
+  max-width: 1000px;
+  display: flex;
+}
+
+.cars__item {
+  position: relative;
+  padding: 50px;
+  flex-basis: 33.33%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.cars__item--bcg1 {
+  background-color: var(--bright-orange);
+}
+
+.cars__item--bcg2 {
+  background-color: var(--dark-cyan);
+}
+
+.cars__item--bcg3 {
+  background-color: var(--very-dark-cyan);
+}
+
+.cars__title {
+  font-family: "BigShouldersDisplay";
+  font-weight: 700;
+  font-size: 34px;
+  color: var(--very-light-gray--bcg--h--btn);
+}
+
+.cars__text {
+  margin-bottom: 100px;
+  max-width: 220px;
+
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--transparent-white--paragraphs);
+}
+
+.cars__btn {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+
+  padding: 16px 30px;
+  background-color: var(--very-light-gray--bcg--h--btn);
+  border-radius: 50px;
+}
+
+.cars__btn--sedans {
+  color: var(--bright-orange);
+}
+
+.cars__btn--suvs {
+  color: var(--dark-cyan);
+}
+
+.cars__btn--luxury {
+  color: var(--very-dark-cyan);
+}
+
+.cars__btn:hover {
+  background-color: transparent;
+  color: var(--very-light-gray--bcg--h--btn);
+  border: 2px solid var(--very-light-gray--bcg--h--btn);
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}

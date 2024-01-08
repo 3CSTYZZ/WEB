@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "LexendDeca";
+  src: local("LexendDeca-Regular"),
+    url("../fonts/LexendDeca-Regular.woff2") format("woff2"),
+    url("../fonts/LexendDeca-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BigShouldersDisplay";
+  src: local("BigShouldersgisplay"),
+    url("../fonts/BigShouldersDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/BigShouldersDisplay-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "LexendDeca", sans-serif;
+  font-weight: 400;
+  background-color: var(--white);
+}
+
+:root {
+  /* primary */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* neutral */
+  --transparent-white--paragraphs: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray--bcg--h--btn: hsl(0, 0%, 95%);
+  --white: #fff;
+}
+
+.container {
+  padding: 0px 30px;
+}
