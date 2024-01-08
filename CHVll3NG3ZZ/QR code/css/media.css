@@ -1,0 +1,7 @@
+/* ⥥ screen resolution: 375px */
+@media (max-width: 450px) {
+  .qr__logo-img {
+    max-width: 250px;
+    min-height: 250px;
+  }
+}

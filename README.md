@@ -12,9 +12,9 @@
 
 - _Course of js_
 
-## TESTS
+## REACT
 
-- _Verification works_
+- _Course of react_
 
 ## WWW
 

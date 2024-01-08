@@ -1,0 +1,24 @@
+/* ⥥ screen resolution: 375px */
+@media (max-width: 650px) {
+  .block {
+    flex-direction: column;
+  }
+
+  /* Your Result */
+  .block__result {
+    padding: 26px;
+    gap: 20px;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .result__circle {
+    padding: 40px 50px;
+  }
+
+  /* Summary  */
+  .block__summary {
+    box-shadow: none;
+  }
+}
