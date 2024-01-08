@@ -1,0 +1,26 @@
+.term-card {
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.term-card__title {
+  margin: 0;
+}
+
+.term-card__description {
+  margin: 0;
+}
+
+.term-card-del {
+  background-color: #ff9999;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: fit-content;
+  cursor: pointer;
+  align-self: flex-end;
+}
