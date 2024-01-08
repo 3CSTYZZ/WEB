@@ -1,0 +1,10 @@
+/* ⥥ screen resolution: 375px */
+@media (max-width: 600px) {
+  .main {
+    padding: 0 20px;
+  }
+
+  .article {
+    flex-direction: column;
+  }
+}

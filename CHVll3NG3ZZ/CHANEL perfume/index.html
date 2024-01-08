@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHANEL</title>
+
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <main class="main">
+      <article class="article flex">
+        <picture class="article__picture">
+          <source
+            srcset="img/image-product-mobile.jpg"
+            media="(max-width: 600px)"
+          />
+          <img
+            class="article__img"
+            src="img/image-product-desktop.jpg"
+            alt="GABRIELLE"
+          />
+        </picture>
+
+        <div class="article__content flex">
+          <h2 class="article__title_h2 t-reset">PERFUME</h2>
+          <h1 class="article__title t-reset">
+            Gabrielle Essense Eau De&nbsp;Parfum
+          </h1>
+
+          <p class="article__text t-reset">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the house of CHANEL.
+          </p>
+
+          <div class="article__price price flex">
+            <span class="price__actual">$149.99</span>
+            <span class="price__previous">$169.99</span>
+          </div>
+
+          <button class="article__btn btn-reset flex">
+            <span
+              ><img class="article__cart" src="img/icon-cart.svg" alt="Icon"
+            /></span>
+            Add to Cart
+          </button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
