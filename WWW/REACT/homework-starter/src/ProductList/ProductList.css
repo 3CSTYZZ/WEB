@@ -1,0 +1,16 @@
+/* list's styles */
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1440px;
+}
+
+.card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}

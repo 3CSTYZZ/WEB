@@ -1,0 +1,39 @@
+/* card's styles */
+.card__wrapper {
+  max-width: 250px;
+  min-height: 400px;
+  padding: 20px;
+  border: 1px solid #d6d6d6;
+  border-radius: 20px;
+}
+
+.card__img {
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card__discount {
+  font-size: 24px;
+  color: rgb(0, 194, 0);
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card__price {
+  color: grey;
+  text-decoration: line-through;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card__price--only {
+  font-size: 24px;
+}
+
+.card__title {
+  font-size: 18px;
+}
